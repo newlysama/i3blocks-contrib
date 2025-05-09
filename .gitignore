@@ -2,3 +2,5 @@
 *.o
 disk_usage/disk_usage
 date/date
+memory/memory
+cpu/cpu

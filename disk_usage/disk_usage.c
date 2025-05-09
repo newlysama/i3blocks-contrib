@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <sys/statvfs.h>
 
-#include "../utils/colors.h"
-
 int main() {
     struct statvfs buf;
 
@@ -22,6 +20,6 @@ int main() {
 
     double percentage = (used_gb * 100) / total_gb;
 
-    printf(" VOL %.2f%% - %.2fGo / %.2fGo\n", percentage,  used_gb, total_gb);
+    printf("STOR %.2f%% - %.2f GiB / %.2f GiB\n", percentage,  used_gb, total_gb);
     return 0;
 }
