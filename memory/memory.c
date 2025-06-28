@@ -25,6 +25,6 @@ int main(void) {
     double used_gb = used_kb / (1024.0 * 1024.0);
     double total_gb = total  / (1024.0 * 1024.0);
     double pct = (double)used_kb * 100.0 / (double)total;
-    printf("RAM %.2f%% - %.2fG / %.2fG\n", pct, used_gb, total_gb);
+    printf("RAM %.2f / %.2f GiB (%.2f%%)\n", used_gb, total_gb, pct);
     return 0;
 }

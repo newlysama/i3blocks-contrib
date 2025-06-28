@@ -20,6 +20,6 @@ int main() {
 
     double percentage = (used_gb * 100) / total_gb;
 
-    printf("STOR %.2f%% - %.2f GiB / %.2f GiB\n", percentage,  used_gb, total_gb);
+    printf("STOR %.2f / %.2f GiB (%.2f%%)\n", used_gb, total_gb, percentage);
     return 0;
 }

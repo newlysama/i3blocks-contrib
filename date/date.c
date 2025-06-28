@@ -10,7 +10,7 @@ int main() {
         return 1;
     }
 
-    printf(" %02d:%02d:%02d  %02d-%02d-%04d\n",
+    printf(" %02d:%02d:%02d  %02d/%02d/%04d\n",
            tm->tm_hour,
            tm->tm_min,
            tm->tm_sec,

@@ -1,6 +1,6 @@
 CC      ?= clang
 CFLAGS  ?= -O2 -s
-MODULES := disk_usage date memory cpu
+MODULES := disk_usage date memory cpu bandwidth
 
 # List binaries to be compiled
 BINS := $(foreach m,$(MODULES),$(m)/$(m))
